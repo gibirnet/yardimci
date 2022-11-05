@@ -50,7 +50,7 @@ function numberToTurkishWords(s, opts) {
 		  	var results = [];
 		  	var perThird = [];
 		  	for(var i = 0; i < len; i++){
-		  		per = parseInt(i/3);
+		  		var per = parseInt(i/3);
 		  		if(i%3 == 0){
 		  			perThird.push([]);
 		  		}
