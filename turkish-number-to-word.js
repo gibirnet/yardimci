@@ -2,7 +2,7 @@ function toWords(s) {
 	s = parseFloat(s);
 	var bir = ['sıfır', 'bir', 'iki', 'üç', 'dört', 'beş', 'altı', 'yedi', 'sekiz', 'dokuz'];
 	var on = ['on', 'yirmi', 'otuz', 'kırk', 'elli', 'altmış', 'yetmiş', 'seksen', 'doksan'];
-	var nth = ['', 'bin', 'milyon', 'milyar', 'tirilyon'];
+	var nth = ['', 'bin', 'milyon', 'milyar', 'trilyon'];
   	var str = String(s);
   	var len = str.length;
 
