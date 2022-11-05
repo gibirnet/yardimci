@@ -1,4 +1,4 @@
-function toWords(s) {
+function numberToTurkishWords(s) {
 	s = parseFloat(s);
 	var bir = ['sıfır', 'bir', 'iki', 'üç', 'dört', 'beş', 'altı', 'yedi', 'sekiz', 'dokuz'];
 	var on = ['on', 'yirmi', 'otuz', 'kırk', 'elli', 'altmış', 'yetmiş', 'seksen', 'doksan'];
