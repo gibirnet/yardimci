@@ -39,7 +39,7 @@ function numberToTurkishWords(s, opts) {
 
   	for(var p in strPart){
   		var subText = [];
-  		strSubPart = strPart[p].match(new RegExp('.{1,'+ opts['split'] +'}', 'g'));
+  		var strSubPart = strPart[p].match(new RegExp('.{1,'+ opts['split'] +'}', 'g'));
   		for(var sp in strSubPart){
 		  	var len = strSubPart[sp].length;
 		  	if(len == 1){
